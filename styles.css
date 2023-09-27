@@ -65,3 +65,16 @@ body {
 #level-title{
   color:Eggshell;
 }
+
+.wrong{
+  background-image: url(https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png);
+}
+
+#link{
+  color:wheat;
+}
+.hint{
+  background-image: none;
+  color:white;
+  text-align: left;
+}

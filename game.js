@@ -1,6 +1,9 @@
 var level = 0;
 $(document).keydown(function(){
+    $(".btn").removeClass("wrong");
     $("h1").css("color","white");
+    $("h1").css("fontSize","3rem");
+    $("img").remove();
     $("body").removeClass("game-over");
     if(level===0){
         nextSequence();
@@ -41,9 +44,11 @@ function animatePress(currentColour){
     },100);
 }
 
-function redBack(){
+function lost(){
     $("h1").css("color","red");
+    $("h1").css("fontSize","2rem");
     $("body").addClass("game-over");
+    $(".btn").addClass("wrong");
 }
 function checkAnswer(currentLevel){
     if(userClickedPattern[currentLevel]===gamePattern[currentLevel]){
@@ -59,8 +64,8 @@ function checkAnswer(currentLevel){
     }
     else{
         playSound("wrong");
-        redBack();
-        $("h1").text("Game Over. Press any key to restart : Completed Levels "+ level);
+        lost();
+        $("h1").html("Game Over. Press any key to restart :<br> Completed Levels "+ (level-1));
         level=0;
         userClickedPattern = [];
         gamePattern=[];
