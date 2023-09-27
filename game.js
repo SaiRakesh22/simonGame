@@ -3,7 +3,7 @@ $(document).keydown(function(){
     $(".btn").removeClass("wrong");
     $("h1").css("color","white");
     $("h1").css("fontSize","3rem");
-    $("img").remove();
+    $(".start").remove();
     $("body").removeClass("game-over");
     if(level===0){
         nextSequence();
@@ -33,7 +33,7 @@ function nextSequence(){
 
 
 function playSound(key){
-    var audio = new Audio("sounds/"+key+".mp3");
+    var audio = new Audio("./sounds/"+key+".mp3");
     audio.play();
 }
 
