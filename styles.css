@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  background-image: url(https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABS6v2gvwesuRN6c28ZykPq_fpmnQCJwELBU-kAmEcuC9HhWX-DfuDbtA-bfo-IrfgNtxl0qwJJlhI6DENsGFXknKkjhxPGTV-qhp.jpg?r=608);
+  background-repeat: no-repeat;
+  background-size: 100% 100% ;
+  background-color: black;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  margin-top: 20px;
+  background-color: red;
+  opacity: 0.8;
+  background-image: url(https://www.slashfilm.com/img/gallery/stranger-things-plot-holes-that-still-confuse-fans/intro-1664299163.jpg);
+  background-size: 100% 100%;
+}
+
+.green {
+  background-image: url(https://media3.giphy.com/media/sH5P7fo4RKXNzoTN2z/200w.webp?cid=ecf05e47bg6l9hw5vh61yre0xoa4ephhs56sjjr9ezhetchj&ep=v1_gifs_search&rid=200w.webp&ct=g);
+  background-size: 100% 100%;
+}
+
+.red {
+  background-image: url(https://media0.giphy.com/media/zTSdktoUj8Jofx0Adt/200w.webp?cid=ecf05e475dm0lmsb9mivruov56x9fdisqwn6g70zqweur8jx&ep=v1_gifs_search&rid=200w.webp&ct=g);
+  background-size: 100% 100%;
+}
+
+.blue {
+  background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWVhcHJxdGZ4b3FkenJwejdqNnQ4bHc3Nmc5c2poa3dtNXVucGhxOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u2gvoJzNn06H7uE5oY/giphy.gif);
+  background-size: 100% 100%;
+}
+
+.yellow {
+  background-image: url(https://media3.giphy.com/media/eLM1RykMmQuSVgaYkM/200w.webp?cid=ecf05e475dm0lmsb9mivruov56x9fdisqwn6g70zqweur8jx&ep=v1_gifs_search&rid=200w.webp&ct=g);
+  background-size: 100% 100%;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+#level-title{
+  color:Eggshell;
+}
