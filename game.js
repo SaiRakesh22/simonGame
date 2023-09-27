@@ -33,7 +33,7 @@ function nextSequence(){
 
 
 function playSound(key){
-    var audio = new Audio("./sounds/"+key+".mp3");
+    var audio = new Audio("./"+key+".mp3");
     audio.play();
 }
 
